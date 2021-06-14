@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- Device trees -->
-  <project path="device/xiaomi/miatoll" name="SonalSingh18/android_device_xiaomi_miatoll" remote="github" revision="eleven" />
-  <project path="device/xiaomi/sm6250-common" name="SonalSingh18/android_device_xiaomi_sm6250-common" remote="github" revision="eleven" />
+  <project path="device/xiaomi/miatoll" name="manigandane/android_device_xiaomi_miatoll" remote="github" revision="eleven" />
+  <project path="device/xiaomi/sm6250-common" name="manigandane/android_device_xiaomi_sm6250-common" remote="github" revision="eleven" />
 
   <!-- Kernel source -->
   <project path="kernel/xiaomi/sm6250" name="SonalSingh18/android_kernel_xiaomi_sm6250" remote="github" revision="eleven" />
@@ -13,8 +13,10 @@
   <project path="vendor/xiaomi/sm6250-common" name="SonalSingh18/android_vendor_xiaomi_sm6250-common" remote="github" revision="eleven" />
 
   <!-- proton-clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
-  
+  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" />
+
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
+
   <!-- miui camera -->
   <project path="vendor/xiaomi/miuicamera" name="SonalSingh18/vendor_xiaomi_miuicamera" remote="github" revision="master" />
 
